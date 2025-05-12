@@ -1,0 +1,19 @@
+Type,ID,Name,CIDR,Availability Zone,VpcId
+VPC,vpc-0d730dab2e3ddb08b,rushabh-vpc,-,-,-
+VPC,vpc-074007fd5f66e0edc,Unnamed VPC,-,-,-
+VPC,vpc-0968f078a5b3e3420,rushabh-custom-vpc,-,-,-
+VPC,vpc-024ecbdefc7e727e5,Unnamed VPC,-,-,-
+Subnet,subnet-034c2476f4838da9d,Nutanix Cluster DE11BAAF0846 FVN,172.17.0.0/24,eu-central-1a,vpc-0d730dab2e3ddb08b
+Subnet,subnet-07b8ec8b7ae0a64df,Nutanix Cluster DE11BAAF0846 public,172.17.1.128/28,eu-central-1a,vpc-0d730dab2e3ddb08b
+Subnet,subnet-0308fc021aafb25b3,rush-fvn,172.18.2.0/23,eu-central-1a,vpc-074007fd5f66e0edc
+Subnet,subnet-0367a4da37fb1645d,rush-mgmt-subnet,172.18.1.0/25,eu-central-1a,vpc-074007fd5f66e0edc
+Subnet,subnet-0de6fb96572ce35f4,rush-public-subnet,172.18.1.128/28,eu-central-1a,vpc-074007fd5f66e0edc
+Subnet,subnet-047d03c0e27e68b92,rush-pc-subnet,172.18.1.144/28,eu-central-1a,vpc-074007fd5f66e0edc
+Subnet,subnet-01a3e75e64d90552d,rushabh-custom-flow-subnet,10.20.2.0/23,eu-central-1a,vpc-0968f078a5b3e3420
+Subnet,subnet-06aab5957425f0b42,rushabh-custom-public-subnet,10.20.0.0/24,eu-central-1a,vpc-0968f078a5b3e3420
+Subnet,subnet-0fc15a255bd7e6392,rushabh-custom-mgmt-subnet,10.20.1.0/24,eu-central-1a,vpc-0968f078a5b3e3420
+Subnet,subnet-03e5d22bbbed4363c,rushabh-custom-uvm-subnet,10.20.4.0/24,eu-central-1a,vpc-0968f078a5b3e3420
+Subnet,subnet-06d407a33d6876884,rushabh-custom-pc-subnet,10.20.5.0/24,eu-central-1a,vpc-0968f078a5b3e3420
+Subnet,subnet-0f6b4f95cc79341c3,Unnamed Subnet,172.31.0.0/20,eu-central-1c,vpc-024ecbdefc7e727e5
+Subnet,subnet-07dd8bb2395c1d02b,Unnamed Subnet,172.31.16.0/20,eu-central-1a,vpc-024ecbdefc7e727e5
+Subnet,subnet-04f070d039c993b76,Unnamed Subnet,172.31.32.0/20,eu-central-1b,vpc-024ecbdefc7e727e5
